@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+
+restaurants:
+  path: /restaurant
+  controller: App\Controller\RestaurantController::new
+  methods:  [GET]
